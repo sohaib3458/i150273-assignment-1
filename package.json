@@ -1,27 +1,15 @@
 {
-  "name": "static",
+  "name": "simple-html-css-js-sandbox",
   "version": "1.0.0",
-  "description": "This is a static template with no bundling",
+  "description": "We'll learn event handling, css, and javascript together here.",
   "main": "index.html",
   "scripts": {
-    "start": "serve"
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codesandbox-app/static-template.git"
-  },
-  "keywords": [
-    "template",
-    "codesandbox",
-    "static"
-  ],
-  "author": "Ives van Hoorne",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/codesandbox-app/static-template/issues"
-  },
-  "homepage": "https://github.com/codesandbox-app/static-template#readme",
+  "dependencies": {},
   "devDependencies": {
-    "serve": "^11.2.0"
-  }
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
 }
